@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Test | Codebase]]></title>
+  <title><![CDATA[Category: test | Codebase]]></title>
   <link href="http://jam1401.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://jam1401.github.io/"/>
-  <updated>2014-02-15T21:54:14-08:00</updated>
+  <updated>2014-02-15T22:01:35-08:00</updated>
   <id>http://jam1401.github.io/</id>
   <author>
     <name><![CDATA[Jeff Morgan]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Lets Start This Up]]></title>
+    <title type="html"><![CDATA[Lets Start this up]]></title>
     <link href="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/"/>
     <updated>2014-02-15T12:56:01-08:00</updated>
     <id>http://jam1401.github.io/blog/2014/02/15/lets-start-this-up</id>
