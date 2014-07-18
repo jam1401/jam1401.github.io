@@ -1,12 +1,11 @@
 
-
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Codebase</title>
+  <title>Category: test - Codebase</title>
   <meta name="author" content="Jeff Morgan">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -14,7 +13,7 @@
   
     
   
-  <meta name="description" content=" I simple blog based on Octopress for exposing random thoughts ">
+  <meta name="description" content=" Category: test ">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -22,17 +21,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jam1401.github.io/">
+  <link rel="canonical" href="http://jam1401.github.ioblog/categories/test/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Codebase" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Codebase" />
-  <meta name="og:title" content="Codebase" />
-  <meta name="og:description" content=" I simple blog based on Octopress for exposing random thoughts " />
-  <meta name="og:url" content="http://jam1401.github.io/index.html"/>
-  <meta name="url" content="http://jam1401.github.io/index.html">
+  <meta name="og:title" content="Category: test" />
+  <meta name="og:description" content=" Category: test " />
+  <meta name="og:url" content="http://jam1401.github.ioblog/categories/test/index.html"/>
+  <meta name="url" content="http://jam1401.github.ioblog/categories/test/index.html">
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -43,26 +42,7 @@
 
 </head>
 
-<body   >
-  <div id="front-wrapper">
-  <div id="hero">
-    <div id="hero-inner" >
-      <div class="container">
-        <div class="span10 offset1">
-  <h1>
-    Codebase
-  </h1>
-  <h2>A digital stream of consciousness</h2>
-</div>
-
-      </div>
-    </div>
-  </div>
-  <section id="sub-hero">
-    <div class="container">
-      <div class="row">
-  <div class="navbar">
-    <div class="navbar">
+<nav role="navigation"><div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="/">Codebase</a>
     <ul class="nav">
@@ -96,181 +76,45 @@
     
   </div>
 </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
+</nav>
+<div class="wrapper_single">
   <div class="container">
-    <div class="row" id="post-container">
-    
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/18/playing-with-google-wear-i/">Playing With Google Wear I</a></h1>
-    
-    
-      <p class="meta">
+    <article class="span8 offset2 article-format role="article">
+      <div role="div">
         
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/jam1401@gmail.com?rel=author"><span class="fn">Jeff Morgan</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-18T09:16:14-07:00" pubdate data-updated="true">Jul 18<span>th</span>, 2014</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/android/'>android</a>, <a class='category' href='/blog/categories/google/'>google</a>, <a class='category' href='/blog/categories/wearables/'>wearables</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>Android Wear Core Experience</h1>
-
-<p>The Android Wear UI consists of two main spaces centered around the core functions of <strong>Suggest</strong> and <strong>Demand</strong></p>
-
-<h2>The Context Stream (Suggest)</h2>
-
-<p>This is effectively Google Now for Android Wear whereby users can swipe through a list of contextually relevant cards. Cards in the stream are more than simple notifications they can be swiped horizontally swiping may reveal buttons which allow actions</p>
-
-<p><img src="http://developer.android.com/wear/images/screens/stream.gif"></p>
-
-<h2>The Cue Card (Demand)</h2>
-
-<p>The cue card allows users to speak to Google. Swiping up on the cue card shows a list of suggested voice commands which can also be tapped.</p>
-
-<p>Each suggested voice command activates a specific type of intent. Multiple applications may register for a single voice intent and the user will have the opportunity to choose which application they prefer (yuk .. seems like an area for some contextual help)</p>
-
-<p>Applications can respond to a voice command in the same way as they respond to a tap on a regular in-stream action button. by adding or updating a stream card or by launching a full screen application.</p>
-
-<p><img src="http://developer.android.com/wear/images/screens/cuecard.gif"></p>
-
-<h2>Other Features</h2>
-
-<ul>
-<li><strong>Home Screen</strong> is the default state and has a background, status indicators and the top ranked context card can be seen poking up from the bottom of the screen</li>
-<li><strong>Ambient Mode</strong> some devices may put the device into ambient mode, users can exist ambient mode by tapping on the screen.</li>
-<li><strong>Settings Screen</strong> is a cue card and fairly self describing</li>
-<li><strong>Full Screen Apps</strong> can be launched on top of the man screen where a wider range of interaction is called for.</li>
-</ul>
-
-
-<p><a href="http://developer.android.com/design/downloads/index.html#Wear">Useful Downloads</a></p>
-
-<p>There will be more later</p>
-</div>
-  
-  
-
-
-</div>
-
-      </article>
-    
-    
-      <article class="span4">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/02/15/lets-start-this-up/">Lets Start This Up</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/jam1401@gmail.com?rel=author"><span class="fn">Jeff Morgan</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-15T12:56:01-08:00" pubdate data-updated="true">Feb 15<span>th</span>, 2014</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/test/'>test</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Well lets try this again. I remember starting an octopress blog well over a year ago. A lot has changed since then. Back then I was at working for <a href="http://www.snapfish.com">Snapfish</a> building out a new IOS application and service, seconded to <a href="http://pivotallabs.com">Pivotal Labs</a> to learn XP and basis for running good agile products. Now I work for <a href="http://www.sisa.samsung.com">Samsung Research America</a>, working mostly in Android and Rails with a smattering of other stuff.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/02/15/lets-start-this-up/">Read on &rarr;</a>
-    </footer>
-  
-
-
-</div>
-
-      </article>
-    
-    </div>
-      <div class="row">
-        <ul class="pager">
+        <header>
+          <h1 class="entry-title">Category: Test</h1>
           
-          
-        </ul>
+        </header>
+        
+        <div id="blog-archives" class="category">
+
+
+
+  
+  <h2>2014</h2>
+
+<article class="archive-article-format">
+  
+<h2><a href="/blog/2014/02/15/lets-start-this-up/">Lets Start This Up</a></h2>
+<time datetime="2014-02-15T12:56:01-08:00" pubdate><span class='month'>Feb</span> <span class='day'>15</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories meta">posted in <a class='category' href='/blog/categories/test/'>test</a></span>
+</footer>
+
+
+</article>
+
+</div>
+
+        
       </div>
+    
+    </article>
   </div>
 </div>
-
-
-  <div id="footer-widgets">
+<div id="footer-widgets">
   <div class="container">
     <div class="row">
   <div class="span3">
@@ -338,7 +182,7 @@ posted in
   </div>
 </footer>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
 <script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
 <script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
@@ -383,5 +227,3 @@ posted in
 
 
 
-</body>
-</html>

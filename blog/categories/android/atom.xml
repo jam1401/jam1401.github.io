@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: android | Codebase]]></title>
+  <link href="http://jam1401.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://jam1401.github.io/"/>
+  <updated>2014-07-18T10:28:21-07:00</updated>
+  <id>http://jam1401.github.io/</id>
+  <author>
+    <name><![CDATA[Jeff Morgan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Playing with Google Wear I]]></title>
+    <link href="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-i/"/>
+    <updated>2014-07-18T09:16:14-07:00</updated>
+    <id>http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-i</id>
+    <content type="html"><![CDATA[<h1>Android Wear Core Experience</h1>
+
+<p>The Android Wear UI consists of two main spaces centered around the core functions of <strong>Suggest</strong> and <strong>Demand</strong></p>
+
+<h2>The Context Stream (Suggest)</h2>
+
+<p>This is effectively Google Now for Android Wear whereby users can swipe through a list of contextually relevant cards. Cards in the stream are more than simple notifications they can be swiped horizontally swiping may reveal buttons which allow actions</p>
+
+<p><img class="<a" src="href="http://developer.android.com/wear/images/screens/stream.gif">http://developer.android.com/wear/images/screens/stream.gif</a>"></p>
+
+<h2>The Cue Card (Demand)</h2>
+
+<p>The cue card allows users to speak to Google. Swiping up on the cue card shows a list of suggested voice commands which can also be tapped.</p>
+
+<p>Each suggested voice command activates a specific type of intent. Multiple applications may register for a single voice intent and the user will have the opportunity to choose which application they prefer (yuk .. seems like an area for some contextual help)</p>
+
+<p>Applications can respond to a voice command in the same way as they respond to a tap on a regular in-stream action button. by adding or updating a stream card or by launching a full screen application.</p>
+
+<p><img class="<a" src="href="http://developer.android.com/wear/images/screens/cuecard.gif">http://developer.android.com/wear/images/screens/cuecard.gif</a>"></p>
+
+<h2>Other Features</h2>
+
+<ul>
+<li><strong>Home Screen</strong> is the default state and has a background, status indicators and the top ranked context card can be seen poking up from the bottom of the screen</li>
+<li><strong>Ambient Mode</strong> some devices may put the device into ambient mode, users can exist ambient mode by tapping on the screen.</li>
+<li><strong>Settings Screen</strong> is a cue card and fairly self describing</li>
+<li><strong>Full Screen Apps</strong> can be launched on top of the man screen where a wider range of interaction is called for.</li>
+</ul>
+
+
+<p><a href="http://developer.android.com/design/downloads/index.html#Wear">Useful Downloads</a></p>
+
+<p>There will be more later</p>
+]]></content>
+  </entry>
+  
+</feed>
