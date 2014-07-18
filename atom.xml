@@ -4,11 +4,7 @@
   <title><![CDATA[Codebase]]></title>
   <link href="http://jam1401.github.io/atom.xml" rel="self"/>
   <link href="http://jam1401.github.io/"/>
-<<<<<<< HEAD
   <updated>2014-07-18T10:32:08-07:00</updated>
-=======
-  <updated>2014-02-16T06:38:42-08:00</updated>
->>>>>>> 44f926b8c8c51a7e3394526e386ea0779c5494e3
   <id>http://jam1401.github.io/</id>
   <author>
     <name><![CDATA[Jeff Morgan]]></name>
@@ -18,7 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Playing with Google Wear I]]></title>
     <link href="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-i/"/>
     <updated>2014-07-18T09:16:14-07:00</updated>
@@ -60,8 +55,6 @@
   </entry>
   
   <entry>
-=======
->>>>>>> 44f926b8c8c51a7e3394526e386ea0779c5494e3
     <title type="html"><![CDATA[Lets Start this up]]></title>
     <link href="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/"/>
     <updated>2014-02-15T12:56:01-08:00</updated>

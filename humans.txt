@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
@@ -16,22 +15,3 @@
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
   Software: Vim
-=======
-/* the humans responsible & colophon */
-/* humanstxt.org */
-
-
-/* TEAM */
-  Owner: Adrian Artiles
-  Site: http://AdrianArtiles.com
-  Twitter: @AdrianArtiles
-
-  UX Designer: Adrian Artiles
-  Site: http://AdrianArtiles.com
-  Twitter: @AdrianArtiles
-
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software: Vim
->>>>>>> 44f926b8c8c51a7e3394526e386ea0779c5494e3
