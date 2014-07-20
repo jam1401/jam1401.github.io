@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Lets Start this up - Codebase</title>
+  <title>Playing with Google Wear II - Codebase</title>
   <meta name="author" content="Jeff Morgan">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,7 +13,7 @@
   
     
   
-  <meta name="description" content="Well lets try this again. I remember starting an octopress blog well over a year ago. A lot has changed since then. Back then I was at working for &hellip;">
+  <meta name="description" content="Design Principles These are the stated design principles for Android wear. I am included their suggested tips for app designers Focus on not &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -21,20 +21,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/">
+  <link rel="canonical" href="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Codebase" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Codebase" />
-  <meta name="og:title" content="Lets Start this up" />
-  <meta name="og:description" content="Well lets try this again. I remember starting an octopress blog well over a year ago. A lot has changed since then. Back then I was at working for &hellip;" />
-  <meta name="og:url" content="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/"/>
-  <meta name="url" content="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/">
+  <meta name="og:title" content="Playing with Google Wear II" />
+  <meta name="og:description" content="Design Principles These are the stated design principles for Android wear. I am included their suggested tips for app designers Focus on not &hellip;" />
+  <meta name="og:url" content="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii/"/>
+  <meta name="url" content="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii/">
   
-  <meta name="subject" content="test"/>
-  <meta name="category" content="test"/>
+  <meta name="subject" content="androiddesigngooglewear"/>
+  <meta name="category" content="androiddesigngooglewear"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -88,7 +88,7 @@
 
   <header>
     
-      <h1 class="entry-title">Lets Start This Up</h1>
+      <h1 class="entry-title">Playing With Google Wear II</h1>
     
     
       <p class="meta">
@@ -113,13 +113,13 @@
   
 
 
-<time datetime="2014-02-15T12:56:01-08:00" pubdate data-updated="true">Feb 15<span>th</span>, 2014</time> - 
+<time datetime="2014-07-18T10:46:41-07:00" pubdate data-updated="true">Jul 18<span>th</span>, 2014</time> - 
         
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/test/'>test</a>
+    <a class='category' href='/blog/categories/android/'>android</a>, <a class='category' href='/blog/categories/design/'>design</a>, <a class='category' href='/blog/categories/google/'>google</a>, <a class='category' href='/blog/categories/wear/'>wear</a>
   
 </span>
 
@@ -130,14 +130,53 @@ posted in
   </header>
 
 
-  <div class="entry-content"><p>Well lets try this again. I remember starting an octopress blog well over a year ago. A lot has changed since then. Back then I was at working for <a href="http://www.snapfish.com">Snapfish</a> building out a new IOS application and service, seconded to <a href="http://pivotallabs.com">Pivotal Labs</a> to learn XP and basis for running good agile products. Now I work for <a href="http://www.sisa.samsung.com">Samsung Research America</a>, working mostly in Android and Rails with a smattering of other stuff.</p>
+  <div class="entry-content"><h1>Design Principles</h1>
 
-<!-- more -->
+<p>These are the stated design principles for Android wear. I am included their suggested tips for app designers</p>
 
+<h2>Focus on not stopping the user.</h2>
 
-<p>Quite a journey but perhaps one where I have learned as much as I possibly could about state of the art software systems development and deployment.</p>
+<p>The basic design is to enable an information snacking model rather than an in your face &ldquo;deal with this now&rdquo; type model. As such causing the user to stop whatever they are doing for longer than 5 secs is not seen as good design.</p>
 
-<p>WIth this blog (which I will try to keep updated) I will hopefully discuss some useful and interesting things related to my craft</p>
+<p><strong>Google Tip</strong>
+Time a typical use of your Wear app. If using it takes more than 5 seconds, you should think about making your app more focused. Also try using your app while you’re having a conversation, and see how it affects your train of thought and eye contact.</p>
+
+<h2>Design for big Gestures</h2>
+
+<p>Basically be aware that fingers are big relative to the screen size, hence any gestures or interaction needs to large enough for humans to use them without a great deal of precision.</p>
+
+<p><img class="right" src="http://developer.android.com/design/media/wear/biggesture.png"></p>
+
+<p><strong>Google Tip</strong>
+Use your app in various everyday situations, such as walking, eating, talking to people, or ordering coffee. If you have to slow down while walking or stop the conversation to be precise, you should consider how your gestures could be bigger.</p>
+
+<h2>Think about stream cards first</h2>
+
+<p>This is probably the most important aspect of app design for the watch. Try and make your stream cards, contextual and contextually consistent. When to show your card in the stream is probably the most important design decision you will make. Otherwise your app should be on demand only.</p>
+
+<p><strong>Google Tip</strong>
+Make a list of all the situations a user would find your app useful. What do they have in common? Same location? Time of day? Certain physical activities? You will most likely come up with several different situations &ndash; that’s a good sign, because it means that you can specialize your cards to those situations. Remember that the user always has the option of completely muting your stream cards if they feel they aren’t relevant enough.</p>
+
+<h2>Do One thing, really fast</h2>
+
+<p>Make your point, user engagement is typically swift in duration. Put the most important information first and then let the user browse deeper if and when they want to.</p>
+
+<p><strong>Google Tip</strong>
+How many bits of information is there in your design? Is everything absolutely necessary, or could you split it up into separate cards? If you’re designing a card, don’t forget that you can use multiple pages.</p>
+
+<h2>Design for the corner of the eye</h2>
+
+<p>Similar to the last one, basically try not to distract the user, simply inform them design for glanceability.</p>
+
+<p><strong>Google Tip</strong>
+To view your app with your peripheral vision, try focusing on your knuckles while your watch is displaying the app. Do you get a sense of what it is trying to do? Is it distinguishable from other apps? Does the background image help conveying the message? Does it use photos or a distinct shape and color?</p>
+
+<h2>Don&rsquo;t be a consistent shoulder tapper</h2>
+
+<p>You can vibrate the device for attention but doing it all the time is not good. Interesting to note that this is the opposite to the Samsung design where al events are displayed and the user is buzzed. Make use of vibration to get attention only for really important information.</p>
+
+<p><strong>Google Tip</strong>
+Next time you’re in a conversation, imagine someone tapping you your shoulder, interrupting you with the information you want your app to deliver. If the information delivered did not justify suspending a conversation, you should not make the notification interruptive.</p>
 </div>
 
 
@@ -164,13 +203,13 @@ posted in
   
 
 
-<time datetime="2014-02-15T12:56:01-08:00" pubdate data-updated="true">Feb 15<span>th</span>, 2014</time>
+<time datetime="2014-07-18T10:46:41-07:00" pubdate data-updated="true">Jul 18<span>th</span>, 2014</time>
       
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/test/'>test</a>
+    <a class='category' href='/blog/categories/android/'>android</a>, <a class='category' href='/blog/categories/design/'>design</a>, <a class='category' href='/blog/categories/google/'>google</a>, <a class='category' href='/blog/categories/wear/'>wear</a>
   
 </span>
 
@@ -179,7 +218,7 @@ posted in
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/" data-via="jam1401" data-counturl="http://jam1401.github.io/blog/2014/02/15/lets-start-this-up/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii/" data-via="jam1401" data-counturl="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -191,8 +230,8 @@ posted in
 
     
     
+      <a class="pull-left" href="/blog/2014/07/18/playing-with-google-wear-i/" title="Previous Post: Playing with Google Wear I">&laquo; Playing with Google Wear I</a>
     
-      <a class="pull-right" href="/blog/2014/07/18/playing-with-google-wear-i/" title="Next Post: Playing with Google Wear I">Playing with Google Wear I &raquo;</a>
     
   </footer>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Codebase]]></title>
   <link href="http://jam1401.github.io/atom.xml" rel="self"/>
   <link href="http://jam1401.github.io/"/>
-  <updated>2014-07-18T10:32:08-07:00</updated>
+  <updated>2014-07-20T10:41:47-07:00</updated>
   <id>http://jam1401.github.io/</id>
   <author>
     <name><![CDATA[Jeff Morgan]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Playing with Google Wear II]]></title>
+    <link href="http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii/"/>
+    <updated>2014-07-18T10:46:41-07:00</updated>
+    <id>http://jam1401.github.io/blog/2014/07/18/playing-with-google-wear-ii</id>
+    <content type="html"><![CDATA[<h1>Design Principles</h1>
+
+<p>These are the stated design principles for Android wear. I am included their suggested tips for app designers</p>
+
+<h2>Focus on not stopping the user.</h2>
+
+<p>The basic design is to enable an information snacking model rather than an in your face &ldquo;deal with this now&rdquo; type model. As such causing the user to stop whatever they are doing for longer than 5 secs is not seen as good design.</p>
+
+<p><strong>Google Tip</strong>
+Time a typical use of your Wear app. If using it takes more than 5 seconds, you should think about making your app more focused. Also try using your app while you’re having a conversation, and see how it affects your train of thought and eye contact.</p>
+
+<h2>Design for big Gestures</h2>
+
+<p>Basically be aware that fingers are big relative to the screen size, hence any gestures or interaction needs to large enough for humans to use them without a great deal of precision.</p>
+
+<p><img class="right" src="http://developer.android.com/design/media/wear/biggesture.png"></p>
+
+<p><strong>Google Tip</strong>
+Use your app in various everyday situations, such as walking, eating, talking to people, or ordering coffee. If you have to slow down while walking or stop the conversation to be precise, you should consider how your gestures could be bigger.</p>
+
+<h2>Think about stream cards first</h2>
+
+<p>This is probably the most important aspect of app design for the watch. Try and make your stream cards, contextual and contextually consistent. When to show your card in the stream is probably the most important design decision you will make. Otherwise your app should be on demand only.</p>
+
+<p><strong>Google Tip</strong>
+Make a list of all the situations a user would find your app useful. What do they have in common? Same location? Time of day? Certain physical activities? You will most likely come up with several different situations &ndash; that’s a good sign, because it means that you can specialize your cards to those situations. Remember that the user always has the option of completely muting your stream cards if they feel they aren’t relevant enough.</p>
+
+<h2>Do One thing, really fast</h2>
+
+<p>Make your point, user engagement is typically swift in duration. Put the most important information first and then let the user browse deeper if and when they want to.</p>
+
+<p><strong>Google Tip</strong>
+How many bits of information is there in your design? Is everything absolutely necessary, or could you split it up into separate cards? If you’re designing a card, don’t forget that you can use multiple pages.</p>
+
+<h2>Design for the corner of the eye</h2>
+
+<p>Similar to the last one, basically try not to distract the user, simply inform them design for glanceability.</p>
+
+<p><strong>Google Tip</strong>
+To view your app with your peripheral vision, try focusing on your knuckles while your watch is displaying the app. Do you get a sense of what it is trying to do? Is it distinguishable from other apps? Does the background image help conveying the message? Does it use photos or a distinct shape and color?</p>
+
+<h2>Don&rsquo;t be a consistent shoulder tapper</h2>
+
+<p>You can vibrate the device for attention but doing it all the time is not good. Interesting to note that this is the opposite to the Samsung design where al events are displayed and the user is buzzed. Make use of vibration to get attention only for really important information.</p>
+
+<p><strong>Google Tip</strong>
+Next time you’re in a conversation, imagine someone tapping you your shoulder, interrupting you with the information you want your app to deliver. If the information delivered did not justify suspending a conversation, you should not make the notification interruptive.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Playing with Google Wear I]]></title>
