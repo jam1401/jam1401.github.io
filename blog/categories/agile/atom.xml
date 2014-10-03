@@ -4,7 +4,7 @@
   <title><![CDATA[Category: agile | Codebase]]></title>
   <link href="http://jam1401.github.io/blog/categories/agile/atom.xml" rel="self"/>
   <link href="http://jam1401.github.io/"/>
-  <updated>2014-10-03T14:46:44-07:00</updated>
+  <updated>2014-10-03T14:55:26-07:00</updated>
   <id>http://jam1401.github.io/</id>
   <author>
     <name><![CDATA[Jeff Morgan]]></name>
@@ -25,6 +25,8 @@
 <p><img src="http://tctechcrunch2011.files.wordpress.com/2012/03/pair-programming.jpg" alt="" /></p>
 
 <p>So I now see the real value of pair programming, at least to me, its Social! and that is a good thing. Having that constant interaction and change which once seems so strange is actually good for me. It breaks me out of the self centered monotony of hacking away at a single blob of code making incremental progress. Such things become less monotonous and Im fairly sure progress would be more swift with another set of eyes there would be another person to field questions later. Suffice it to say I am missing those pairing days I found so strange and unnecessary.</p>
+
+<p>Lets be clear there are times when working solo is good, Pair programming is certainly not the be all and end all of programming practices. But in world without it, well it sure can be lonely sometimes.</p>
 ]]></content>
   </entry>
   
